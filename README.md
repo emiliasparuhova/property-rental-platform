@@ -20,29 +20,16 @@ This project is a full-stack property rental platform designed to connect tenant
     - See a showcase of the most popular adverts on the homepage.
 - **API Documentation:** The backend includes Swagger UI for easy exploration and testing of the REST API.
 
-## Tech Stack
+## Technology Stack
 
-The platform is built with a modern technology stack, separated into a backend and frontend application.
-
-**Backend:**
-- **Framework:** Spring Boot (Java 17)
-- **Database:** MySQL
-- **Data Access:** Spring Data JPA / Hibernate
-- **Database Migrations:** Flyway
-- **Security:** Spring Security, JSON Web Tokens (JWT), jBCrypt
-- **Real-time:** Spring WebSocket with STOMP
-- **API Documentation:** Swagger/OpenAPI
-- **Build Tool:** Gradle
-- **Containerization:** Docker
-
-**Frontend:**
-- **Framework:** React.js (with Vite)
-- **State Management:** Redux (with Redux Toolkit and Redux Persist)
-- **Routing:** React Router
-- **HTTP Client:** Axios
-- **Styling:** Bootstrap, RSuite, CSS Modules
-- **Mapping:** React-Leaflet
-- **Testing:** Cypress (End-to-End)
+| Category      | Technology                                                                                                 |
+| ------------- | ---------------------------------------------------------------------------------------------------------- |
+| **Frontend**  | React.js, Vite, Redux Toolkit, Redux Persist, React Router, Axios, Bootstrap, CSS Modules |
+| **Backend**   | Java 17, Spring Boot, Spring Security, Spring Data JPA, Hibernate, Spring WebSocket (STOMP), JWT, jBCrypt |
+| **Database**  | MySQL, Flyway                                                                                              |
+| **Testing**   | Cypress (E2E), Mockito                                                                                               |
+| **DevOps**    | Docker, Gradle                                                                                              |
+| **Documentation** | Swagger / OpenAPI                                                                                     |
 
 ## Local Development Setup
 
