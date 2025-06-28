@@ -24,10 +24,10 @@ This project is a full-stack property rental platform designed to connect tenant
 
 | Category      | Technology                                                                                                 |
 | ------------- | ---------------------------------------------------------------------------------------------------------- |
-| **Frontend**  | React.js, Vite, Redux Toolkit, Redux Persist, React Router, Axios, Bootstrap, CSS Modules |
+| **Frontend**  | React, Vite, Redux, Redux-Persist, Axios, Bootstrap, CSS Modules |
 | **Backend**   | Java 17, Spring Boot, Spring Security, Spring Data JPA, Hibernate, Spring WebSocket (STOMP), JWT, jBCrypt |
 | **Database**  | MySQL, Flyway                                                                                              |
-| **Testing**   | Cypress (E2E), Mockito                                                                                               |
+| **Testing**   | Cypress (E2E), JUnit 5, Mockito                                                                                               |
 | **DevOps**    | Docker, Gradle                                                                                              |
 | **Documentation** | Swagger / OpenAPI                                                                                     |
 
