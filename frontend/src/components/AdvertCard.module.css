@@ -1,0 +1,21 @@
+.advertImage{
+    height: 230px;
+    width: 260px;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px
+}
+
+.advertContainer{
+    margin-bottom: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 260px;
+    display: flex;
+    justify-content: center;
+}
+
+.advertContainer:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,54 @@
+.profileContainer {
+    height: auto;
+    margin: auto;
+    padding: 60px;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    margin-top: 50px;
+    background-color: #ffffff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-flow: row;
+    gap: 80px;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.profilePicture {
+    max-width: 100%;
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    object-fit: cover;
+}
+
+.profileContainer input {
+    max-width: 100%;
+    width: 450px;
+}
+
+.profileContainer select {
+    max-width: 100%;
+    width: 450px;
+}
+
+.profileContainer textarea {
+    max-width: 100%;
+    width: 450px;
+}
+
+.profileContainer button {
+    width: 300px;
+    background-color: #012245;
+    color: white;
+}
+
+.profileContainer button:hover {
+    background-color: #01172e;
+}
+
+.providerIcon{
+    height: auto;
+    width: 45px;
+}

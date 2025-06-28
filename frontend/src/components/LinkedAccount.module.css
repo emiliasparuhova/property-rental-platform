@@ -1,0 +1,18 @@
+.removeIcon{
+    height: auto;
+    width: 29px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.providerIcon{
+    height: auto;
+    width: 45px;
+}
+
+.linkedAccountContainer{
+    background-color: white;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}

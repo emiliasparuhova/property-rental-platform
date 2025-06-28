@@ -1,0 +1,8 @@
+.contactLandlordContainer button{
+    background-color: #012245;
+    color: white;
+}
+
+.contactLandlordContainer button:hover{
+    background-color: #01172e;
+}

@@ -1,0 +1,59 @@
+.containerLogin {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    width: 450px;
+}
+
+.containerLogin form{
+    width: 400px;
+}
+
+.containerLogin h2 {
+    color: #012245;
+}
+
+.containerLogin input[type="text"],
+.containerLogin input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid #012245;
+    outline: none;
+}
+
+.containerLogin input[type="submit"] {
+    background-color: #012245;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.containerLogin input[type="submit"]:hover {
+    background-color: #01172e;
+}
+
+.containerLogin a {
+    color: #01172e;
+    text-decoration: none;
+}
+
+.containerLogin a:hover {
+    text-decoration: underline;
+    color: #01172e;
+}
+
+.providerIcon{
+    height: auto;
+    width: 45px;
+}

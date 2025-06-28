@@ -1,0 +1,35 @@
+.profilePicture {
+    max-width: 100%;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    object-fit: cover;
+}
+
+.profilePicture:hover{
+    cursor: pointer;
+}
+
+.senderMessage{
+    align-self: flex-end;
+    background-color: #012245; 
+    color: white;
+    border-radius: 10px;
+    width: 300px;
+    max-width: 300px;
+    padding: 10px;
+}
+
+.recipientMessage{
+    background-color: #f5f5f5; 
+    color: black;
+    border-radius: 10px;
+    width: 300px;
+    max-width: 300px;
+    padding: 10px;
+}
+
+.pictureContainer{
+    width: 80px;
+}

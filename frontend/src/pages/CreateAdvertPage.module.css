@@ -1,0 +1,55 @@
+.createAdvertContainer{
+    height: 100vh;
+    width: 100vw;
+}
+
+.createAdvertContainer input {
+    max-width: 100%;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.createAdvertContainer select {
+    max-width: 100%;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.createAdvertContainer .selectCity {
+    max-width: 100%;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.createAdvertContainer textarea {
+    max-width: 100%;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.createAdvertContainer .radioButtons input {
+    margin-bottom: 20px;
+    width: 16px;
+}
+
+.createAdvertContainer button {
+    width: 300px;
+    background-color: #012245;
+    color: white;
+}
+
+.createAdvertContainer button:hover {
+    background-color: #01172e;
+}
+
+.removeImage{
+    height: auto;
+    width: 32px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.propertyPhoto{
+    height: auto;
+    width: 200px;
+}

@@ -1,0 +1,83 @@
+.containerRegister {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    width: 450px;
+}
+
+.containerRegister form{
+    width: 400px;
+}
+
+.containerRegister h2 {
+    color: #012245;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.containerRegister input[type="text"],
+.containerRegister input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    border: none;
+    border-bottom: 1px solid #012245;
+    outline: none;
+}
+
+.containerRegister input[type="submit"] {
+    background-color: #012245;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.containerRegister input[type="submit"]:hover {
+    background-color: #01172e;
+}
+
+
+.containerRegister input[type="radio"] {
+    display: none; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 15px;
+}
+
+.containerRegister input[type="radio"]:hover + label {
+    background-color: #153e694c;
+    color: white;
+}
+
+.containerRegister label {
+    display: inline-block;
+    padding: 5px;
+    cursor: pointer;
+    width: 190px;
+    font-weight: 600;
+}
+
+.containerRegister input[type="radio"]:checked + label {
+    background-color: #012245;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: white;
+}
+
+.radioContainer {
+    border: 1px solid #012245; 
+    border-radius: 5px;
+    display: inline-block; 
+    width: auto;
+  }
+

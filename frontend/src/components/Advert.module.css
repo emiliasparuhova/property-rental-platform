@@ -1,0 +1,9 @@
+.advertContainer{
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+.advertImage{
+    height: 250px;
+    width: 280px;
+}

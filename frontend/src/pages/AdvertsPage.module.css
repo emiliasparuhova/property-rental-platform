@@ -1,0 +1,63 @@
+.advertsPageContainer{
+    height: 100vh;
+    width: 100vw;
+}
+
+.statisticsContainer{ 
+  background-color: #012245;
+  color: white;
+  border-radius: 5px;
+}
+
+.pagination{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+  font-size: 1.2rem;
+  gap: 5px;
+}
+
+.pagination .pageNum{
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 7px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.pagination .pageNum:hover{
+  background-color: #012245;
+  color: #fff;
+}
+
+.pagination .active{
+  background-color: #012245;
+  color: #fff;
+}
+
+.tabButton {
+  color: black !important;
+  background-color: #0122452a !important;
+  border-color: #012245;
+  border-radius: 0px;
+  border: none;
+}
+
+.tabButton:hover {
+  color: black !important;
+  background-color: #0122452a !important;
+  border-color: #012245;
+}
+
+.buttonContainer .active {
+  color: white !important; 
+  background-color: #012245 !important;
+  border-color: #012245;
+}
+
+.buttonIcons{
+  width: 20px;
+  height: 20px;
+}

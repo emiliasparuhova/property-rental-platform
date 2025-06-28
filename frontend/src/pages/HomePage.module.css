@@ -1,0 +1,24 @@
+.homeContainer button {
+  width: 180px;
+  background-color: #012245;
+  color: white;
+}
+   
+.homeContainer button:hover {
+  background-color: #01172e;
+  border: #01172e;
+}
+
+.homeContainer a {
+  color: white;
+}
+
+.homeContainer a:hover {
+  color: white;
+}
+
+.wallpaperImage{
+  margin-top: 20px;
+  width: 400px;
+  height: auto;
+}

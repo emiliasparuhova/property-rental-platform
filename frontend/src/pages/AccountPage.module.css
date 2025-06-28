@@ -1,0 +1,37 @@
+.tabButton {
+    color: black !important;
+    background-color: white !important;
+    border-color: #012245;
+}
+
+.tabButton:hover {
+    color: black !important;
+    background-color: white !important;
+    border-color: #012245;
+}
+
+.buttonContainer .active {
+    color: white !important; 
+    background-color: #012245 !important;
+    border-color: #012245;
+}
+
+.buttonContainer {
+    position: sticky;
+    top: 0;
+}
+
+.accountContainer input {
+    max-width: 100%;
+    width: 450px;
+}
+
+.accountContainer button {
+    width: 300px;
+    background-color: #012245;
+    color: white;
+}
+
+.accountContainer button:hover {
+    background-color: #01172e;
+}

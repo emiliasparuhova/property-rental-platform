@@ -1,0 +1,46 @@
+
+.searchBarContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; 
+  max-width: 100%;
+  border-radius: 15px;
+}
+
+.select {
+  width: 450px; 
+  max-width: 100%;
+  font-size: 16px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: transparent;
+}
+
+.select .Select_input input {
+  border: none;
+  outline: none;
+  border-radius: 15px;
+}
+
+.select .Select_option {
+  padding: 10px;
+}
+
+.select .Select_value {
+  border: none;
+  border-radius: 5px;
+}
+
+.select .Select_placeholder {
+  color: #888;
+}
+
+.select .Select_arrow {
+  fill: #888;
+}
+
+.select .Select_value_label {
+  color: #333;
+}

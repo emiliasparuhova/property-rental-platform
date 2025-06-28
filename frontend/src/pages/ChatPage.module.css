@@ -1,0 +1,67 @@
+.chatContainer {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    height: 85vh;
+  }
+  
+.senderMessage {
+    align-self: flex-end;
+    align-content: flex-end;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    height: auto;
+}
+  
+.recipientMessage {
+    align-self: flex-start;
+    align-content: flex-start;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    height: auto;
+}
+
+.chatContainer button{
+    min-width: 130px;
+    height: 50px;
+    background-color: #012245;
+    color: white;
+    border: none;
+}
+
+.chatContainer button:hover{
+    background-color: #01172e;
+}
+
+.messageBar{
+    margin-top: 50px;
+}
+
+.scrollableContainer {
+    overflow-y: auto; 
+    max-height: 540px; 
+    min-width: 500px;
+}
+
+.advertImage{
+    width: 80px;
+    height: 80px;
+    border-top-left-radius: 20px; 
+    border-bottom-left-radius: 20px
+}
+
+.advertContainer{
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    min-width: 500px;
+}
+
+.advertContainer:hover{
+    cursor: pointer;
+}
+
+.chatContainer textarea{
+    min-width: 300px;
+}
